@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    min-height: 100vh;
+}
+
+.main {
+    background-image: url(../images/bg-hero-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: unset;
+    background-color: hsl(193, 100%, 96%);
+    background-blend-mode: darken;
+    width: 100%;
+    padding: 0 6em;
+
+}
+
+.sub-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:40px 0;
+    /* border: 1px solid black; */
+}
+
+.sub-1 .huddle {
+    font-weight: 800;
+    font-size: 2em;
+    color: hsl(192, 100%, 9%);
+    /* border: black 1px solid; */
+    /* flex: 1; */
+    max-width: 200px;
+}
+
+.huddle i {
+    color: hsl(322, 100%, 66%);
+}
+
+.try {
+    background-color: #fff;
+    box-shadow: 5px 3px 4px 5px rgba(0, 0, 0, 0.116);
+    padding: 6px 45px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 20px;
+    text-align: center;
+
+
+}
+
+.sub-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.paragraph .build {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+.paragraph .para {
+    max-width: 430px;
+}
+
+.pink {
+    background-color: hsl(322, 100%, 66%);
+    max-width: 160px;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 10px;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    padding: 10px 0;
+}
+
+.main-images img {
+    max-width: 500px;
+}
+
+.second-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 100%);
+    margin: 20px 100px;
+    /* border: 1px solid  rgba(0, 0, 0, 0.116); */
+    box-shadow: 3px 3px 4px 5px rgba(0, 0, 0, 0.054);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.second-main-image img {
+    width: 400px;
+}
+
+.second-main-paragraph {
+
+    /* border: 1px solid red; */
+    flex: 1;
+    max-width: 500px;
+}
+
+.grow {
+    font-weight: 700;
+    font-size: 25px;
+
+}
+
+.lenght {
+    max-width: 400px;
+}
+
+
+
+.footer {
+    background-color: hsl(192, 100%, 9%);
+    height: 400px;
+    width: 100%;
+    padding: 5em 6em;
+    position: relative;
+    margin-top: 16%;
+}
+
+.bord {
+    box-shadow: 5px 3px 4px 5px rgba(0, 0, 0, 0.116);
+    background-color: hsl(193, 100%, 96%);
+    width: 450px;
+    /* height: 200px; */
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    transform: translate(0,-160%);
+    padding: 40px;
+    border-radius: 6px;
+}
+
+.bord p {
+    color: hsl(192, 100%, 9%);
+    font-weight: 800;
+    font-size: 18px;
+    text-align: center;
+}
+
+.bord div {
+    background-color: hsl(322, 100%, 66%);
+    text-align: center;
+    box-shadow: 5px 3px 4px 5px rgba(0, 0, 0, 0.116);
+    padding: 10px 0;
+    border-radius: 18px;
+    margin: 10px auto 0 auto;
+    width: 200px;
+    color: hsl(193, 100%, 96%);
+    font-weight: 600;
+    font-size: 10px;
+}
+
+.footer h3 {
+    color: hsl(193, 100%, 96%);
+    font-size: 30px;
+    font-weight: 800;
+}
+
+h3 i {
+    color: hsl(193, 100%, 96%);
+}
+
+.footer .last {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    color: hsl(208, 11%, 55%);
+}
+
+.pair .lorem {
+    max-width: 300px;
+}
+
+.pair p, .us p, .career p {
+    padding: 10px 0;
+}
+
+.copy{
+    display: block;
+    color:hsl(208, 11%, 55%);
+}
+
+.pair i{
+    padding-right: 5px;
+}
